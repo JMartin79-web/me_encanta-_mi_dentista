@@ -1,0 +1,83 @@
+.hero-svg{
+    width: 100%;
+}
+
+.cls-1{fill:#ee8b44;}
+.cls-2{fill:#c4e1b2;}
+.cls-3{fill:#6cc1c6;}
+
+#front_icon_1{
+    animation: hero-move-up;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+#back_icon_1{
+    @include d-flex-center;
+    animation: hero-1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+#back_icon_2{
+        animation: hero-rotate-1;
+        transform-origin: center;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+}
+
+#back_icon_3{
+    animation: hero-move-down;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+#back_icon_4{}
+
+
+#back_icon_5{
+    animation: hero-scale-down;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+#back_icon_6{
+
+}
+
+#back_icon_7{
+
+}
+
+#back_icon_8{
+    animation: hero-rotate-2;
+    transform-origin: center;
+    animation-duration: 30s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+#back_icon_9{}
+
+#back_icon_10{
+
+}
+
+#back_icon_11{}
+
+#back_icon_12{
+    animation: hero-scale-down;
+    animation-duration: 15s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+}
+
+#back_icon_13{
+    animation: hero-move-down;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}

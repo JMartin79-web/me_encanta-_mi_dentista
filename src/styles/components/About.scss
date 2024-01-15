@@ -1,0 +1,11 @@
+.about-container{
+    @include container;
+    .about{
+        @include div-width;
+        .about-content{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-between;
+        }
+    }
+}

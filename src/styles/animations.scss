@@ -1,0 +1,126 @@
+
+@keyframes button-clicked{
+    0%{
+        transform: translateY(-.5rem);
+    }
+    25%{
+        transform: scale(.95);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+        transform: translateY(0rem);
+        filter: drop-shadow(transparent 0px 0rem 0rem);
+    }
+}
+
+// ARROW DE CARROUSEL
+@keyframes arrow-clicked{
+    0%{
+        fill: $accent;
+    }
+    25%{
+        transform: scale(.75);
+    }
+    50%{
+        transform: scale(1.25);
+    }
+    90%{
+        fill: $accent;
+    }
+    100%{
+        transform: scale(1);
+        fill: $primary;
+    }
+}
+
+// HERO ANIMATION
+@keyframes hero-1{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(.95);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes hero-scale-down{
+    0%{
+        transform: scale(100%) translateX(0) translateY(0rem);
+    }
+
+    50%{
+        transform: scale(85%) translateX(12rem) translateY(2rem);
+
+    }
+    100%{
+        transform: scale(100%) translateX(0) translateY(0rem);
+
+    }
+}
+
+@keyframes hero-rotate-1{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(5deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes hero-rotate-2{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(35deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes hero-move-down{
+    0%{
+        transform:  translateY(0rem);
+    }
+
+    50%{
+        transform:  translateY(2rem);
+
+    }
+    100%{
+        transform:  translateY(0rem);
+
+    }
+}
+
+
+@keyframes hero-move-up{
+    0%{
+        transform:  translateY(0rem);
+    }
+
+    50%{
+        transform:  translateY(-2rem);
+
+    }
+    100%{
+        transform:  translateY(0rem);
+
+    }
+}

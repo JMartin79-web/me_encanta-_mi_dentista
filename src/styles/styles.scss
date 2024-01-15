@@ -1,0 +1,61 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html{ font-size: 62.5% /* para que 1rem sean 10px */}
+
+// COLORES
+@import './colors.scss';
+
+// FUENTES
+@import './fonts.scss';
+
+// UTILIDADES
+@import './utilities.scss';
+
+// GENERAL
+@import './general.scss';
+
+// ANIMACIONES
+@import './animations.scss';
+
+// BUTTON
+@import './components/Button.scss';
+
+// DIVISOR
+@import './components/Divisor/Divisor.scss';
+
+// CARROUSEL
+@import './components/Carrousel/Carrousel.scss';
+
+// HEADER
+@import './components/Header/Header.scss';
+@import './components/Header/Hamburguer.scss';
+//@import './components/Header/Dashboard.scss';
+
+// HERO
+@import './components/Hero/Hero.scss';
+@import './components/Hero/Hero2.scss';
+@import './components/Hero/HeroSvg.scss';
+
+// ABOUT
+@import './components/About.scss';
+    @import './components/Card.scss';
+
+
+
+// SECTIONS
+
+
+// SECTION 2
+@import './components/Section2.scss';
+
+// CONTACT
+@import './components/Contact/Contact.scss';
+
+// FOOTER
+@import './components/Footer/Footer.scss';
