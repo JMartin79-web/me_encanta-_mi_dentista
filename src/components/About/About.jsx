@@ -1,28 +1,47 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../Cards/Card'
+import CardSquare from '../Cards/CardSquare'
+
+// IMGS
+import general from './../../assets/img/cards/general.jpg'
+import ortodoncia from './../../assets/img/cards/ortodoncia.jpg'
+import cirugia from './../../assets/img/cards/cirugia.jpg'
+import estetica from './../../assets/img/cards/estetica.jpg'
+import protesis from './../../assets/img/cards/protesis.jpg'
 
 function About() {
 return (
   <main className='about-container'>
   
     <section className='about' id='about'>
-      <h3>About</h3>
+      <h3>Trabajamos todas las especialidades</h3>
     
       <div className='about-content'>
       
-        <Card
-          title="Card 1"
-          txt='texto de ejemplo'  
+        <CardSquare
+          txt="General"
+          img={general}
         />
 
-        <Card
-          title="Card 2"
-          txt='texto de ejemplo'  
+        <CardSquare
+          txt="Ortodoncia"  
+          img={ortodoncia}
+        />
+        
+        <CardSquare
+          txt="Cirugía"  
+          img={cirugia}
         />
 
-        <Card
-          title="Card 3"
-          txt='texto de ejemplo'  
+        <CardSquare
+          txt="Prótesis"
+          img={protesis}
+
+        />
+
+        <CardSquare
+          txt="Estética"
+          img={estetica}
         />
       
       </div>

@@ -44,7 +44,6 @@ html{ font-size: 62.5% /* para que 1rem sean 10px */}
 
 // ABOUT
 @import './components/About.scss';
-    @import './components/Card.scss';
 
 
 
@@ -59,3 +58,7 @@ html{ font-size: 62.5% /* para que 1rem sean 10px */}
 
 // FOOTER
 @import './components/Footer/Footer.scss';
+
+// CARDS
+@import './components/Cards/Card.scss';
+@import './components/Cards/CardSquare.scss';
