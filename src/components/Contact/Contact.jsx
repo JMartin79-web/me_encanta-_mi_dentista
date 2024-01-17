@@ -27,7 +27,7 @@ return (
 
             <div>
                 <h5>Solicitá un turno llamando al 4522-5265</h5>
-                <p>Estamos disponibles Lunes a Viernes de 09:00 a 19:00</p>
+                <p>Estamos disponibles Lunes a Viernes de 09:00 a 18:00</p>
             </div>
 
         </div>
