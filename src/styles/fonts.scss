@@ -76,18 +76,21 @@ $extraBold : 800;
 // TEXTO
 
 @mixin bigText {
+    color: $colorTxt;
     font-size: 2.7rem;
     font-family: 'Poppins', sans-serif;
 }
 
 
 @mixin textBold {
+    color: $colorTxt;
     font-size: 1.6rem;
     font-size: $bold;
     font-family: 'Poppins', sans-serif;
 }
 
 @mixin text {
+    color: $colorTxt;
     font-size: 1.6rem;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;

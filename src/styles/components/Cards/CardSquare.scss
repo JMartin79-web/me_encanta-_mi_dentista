@@ -20,9 +20,12 @@
         align-items: flex-end;
         width: 100%;
         height: 100%;
-        .card-txt-p{font-size: 2.1rem;}
-        font-weight: $semiBold;
-        color: $white;
+        .card-txt-p{
+            font-size: 2.1rem;
+            font-weight: $semiBold;
+            color: $white;
+        }
+        
     }
 
     .card-filter{
@@ -49,7 +52,7 @@
 
     &:hover{
         .card-txt{
-            color: $accent;
+            .card-txt-p{ color: $accent; }
         }
         .card-img{
             img{

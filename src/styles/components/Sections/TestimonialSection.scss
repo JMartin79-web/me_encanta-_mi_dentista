@@ -1,13 +1,13 @@
-.about-container{
+.testimonial-section-container{
     @include container;
-    .about{
+
+    .testimonial-section{
         @include div-width;
         h3{
             text-align: center;
             color: $accent;
         }
-        
-        .about-content{
+        .testimonial-section-cards{
             display: flex;
             justify-content: space-evenly;
             align-items: center;

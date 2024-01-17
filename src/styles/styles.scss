@@ -35,7 +35,7 @@ html{ font-size: 62.5% /* para que 1rem sean 10px */}
 // HEADER
 @import './components/Header/Header.scss';
 @import './components/Header/Hamburguer.scss';
-//@import './components/Header/Dashboard.scss';
+@import './components/Header/Dashboard.scss';
 
 // HERO
 @import './components/Hero/Hero.scss';
@@ -48,10 +48,8 @@ html{ font-size: 62.5% /* para que 1rem sean 10px */}
 
 
 // SECTIONS
-
-
-// SECTION 2
-@import './components/Section2.scss';
+@import './components/Sections/TestimonialSection.scss';
+@import './components/Sections/Section2.scss';
 
 // CONTACT
 @import './components/Contact/Contact.scss';
@@ -62,3 +60,4 @@ html{ font-size: 62.5% /* para que 1rem sean 10px */}
 // CARDS
 @import './components/Cards/Card.scss';
 @import './components/Cards/CardSquare.scss';
+@import './components/Cards/CardTestimonial.scss';

@@ -8,7 +8,7 @@ import HeroSVG from './HeroSVG'
 function Hero2() {
 return (
 <>
-    <main className='hero2-container'>
+    <main className='hero2-container' id='inicio'>
 
         <div className='hero2'>
 
@@ -18,8 +18,8 @@ return (
                 </div>
                 <br />                
                 <div className='hero-txt-buttons'>
-                    <HashLink smooth to={'/#sec2'} className='secondary-button'>Saber más</HashLink>
-                    <HashLink smooth to={'/'} className='primary-button'>Solicitar turno</HashLink>
+                    <HashLink smooth to={'/#nosotros'} className='secondary-button'>Saber más</HashLink>
+                    <HashLink smooth to={'/#contacto'} className='primary-button'>Solicitar turno</HashLink>
                 </div>
             
             </section>

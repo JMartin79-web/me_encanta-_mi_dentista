@@ -9,7 +9,7 @@ function Contact() {
 
 
 return (
-<div className='contact-container'>
+<div className='contact-container' id='contacto'>
 
     <div className='contact'>
 
@@ -19,8 +19,8 @@ return (
                 <p>Estamos ubicados en Dr. Pedro Ignacio Rivera 4946, General Urquiza.</p>
                 <p>También nos podés encontrar en redes</p>
                 
-                <SocialButton href='#' txt='Facebook' img={<IconFacebook/>} />
-                <SocialButton href='#' txt='Instagram' img={<IconInstagram/>} />
+                <SocialButton href='https://www.facebook.com/meencantamidentista1' txt='Facebook' img={<IconFacebook/>} />
+                <SocialButton href='https://www.instagram.com/meencantamidentista/?hl=es-la' txt='Instagram' img={<IconInstagram/>} />
             </div>
 
             <DivisorIntern color='#6CC1C6' />

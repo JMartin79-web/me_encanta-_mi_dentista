@@ -2,7 +2,7 @@ import React from 'react'
 
 function SocialButton(props) {
   return (
-    <a className='social-button' href={props.href}>
+    <a className='social-button' href={props.href} target='_blank'>
 
         <div className='social-button-img'>
             {props.img}
